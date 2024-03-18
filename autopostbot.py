@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Bot token from BotFather
-TOKEN = '6965122891:AAE0atzFBbmYpNQv1vodTUQX-06m_g-k-dk'
+TOKEN =
 
 def start(update, context):
     """Send a message when the command /start is issued."""
