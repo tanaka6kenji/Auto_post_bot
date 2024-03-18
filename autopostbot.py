@@ -13,7 +13,7 @@ def start(update, context):
 
 def main():
     """Start the bot."""
-    updater = Updater(token='6965122891:AAE0atzFBbmYpNQv1vodTUQX-06m_g-k-dk', use_context=True)
+    updater = Updater(token='your token', use_context=True)
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler("start", start))
     updater.start_polling()
